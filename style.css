@@ -1,0 +1,236 @@
+/*reseteo universal*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*background modeling*/
+.model{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+}
+.model .div-container{
+
+}
+/*flex barra de navegacion*/
+.nav{
+    display: flex;
+}
+.nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    color: blue;
+    position: sticky;
+}
+/*modelage de logo*/
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 4%;
+}
+.nav ul{
+    flex: 1;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 20px 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10%;
+    
+}
+/*boton principal*/
+.btn{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 70px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #01004e;
+}
+.title{
+    margin-top: 3.5%;
+    margin-left: 3%;
+}
+/*titulo principal*/
+.title h1{
+    font-size: 60px;
+}
+.title h1 span{
+    color: #ff960b;
+}
+.title p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.title .btn{
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color: #ff960b;
+    padding: 10px 20px;
+}
+.section-trade{
+    background-color: #1b76cc;
+}
+.title-h1{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ff960b;
+    text-align: center;
+}
+.title-h2{
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.parrafo-h2{
+    align-items: center;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.registrate{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.container img h2 {
+    display: inline-block;
+    
+}
+/*imagen celular 1*/
+.celular{
+    height: 400px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.parrafo{
+    align-items:center;
+    margin-top: 160px;
+    font-size: 20px;
+    
+}
+.parrafo .numero {
+    font-size: 50px;
+    display:inline-block;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff960b;
+    padding: 8px 20px;
+    margin-left: 140px;
+}
+/*imagen celular 2*/
+.celular2{
+    height: 500px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+/*seccion del footer*/
+.footer{
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer div{
+    text-align: center;
+}
+.columna2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.columna1 a{
+    display: block;
+    text-decoration: none;
+    margin-bottom:10px;
+    color:#efefef;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+}
+.social{
+    margin-top: 30px;
+}
+.social i{
+    font-size: 22px;
+    margin: 10px;
+}
+.simulator{
+    display: flex;
+}
+.simulator{
+    font-size: 60px;
+    margin-left: 27%;
+    margin-top: 40px;
+    color: #ff960b;
+    align-items: center;
+    
+}
+.section-traning{
+    align-items: center;
+}
+/*video simulador*/
+.video1{
+    margin-left: 10%;
+   width: 80%;
+   height: 40%;
+}
+.parrafo-simulator{
+    font-size: 25px;
+    text-align: center;
+}
+.arbitrage-img{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.arbitrage{
+    text-align: center;
+    font-size: 25px;
+}
+.contenerdor-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: ;
+}
